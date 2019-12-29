@@ -1,0 +1,12 @@
+
+public class Practice {
+
+	public static void main(String[] args) {
+		boolean x = true;
+		
+		if(x) {
+			System.out.println("Hello Binju");
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class a2main {
+
+	public static void main(String[] args) {
+		
+	 int surveyedCustomers = 12467;
+	 double energyDrinkCustomers =  (0.14 * surveyedCustomers);
+	 double citrusFlavoredCustomers = (0.64 * energyDrinkCustomers);
+	 
+	 System.out.println( "Out of " + surveyedCustomers +
+			 " customers, approximately " + (int) energyDrinkCustomers + " like energyDrink."
+			  + " Out of them " + (int) citrusFlavoredCustomers  + " like citrus-Flavoured energy drink ");
+	 
+
+	}
+
+}
